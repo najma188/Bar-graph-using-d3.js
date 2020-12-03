@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       .toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+        html,body{
+            text-align: center;
+            margin:0;
+            height:100%;
+        }
+        line{
+            stroke:brown;
+            stroke-width:3;
+        }
+        path{
+            stroke:blue;
+            stroke-width:3;
+            fill:none;
+        }
+        .yaxis
+        {
+            margin: 20px;
+        }
+       g.hidden line,
+       g.hidden path
+       {
+        display: none;
+       }
+        g.grp3 circle,
+        g.grp3 path,
+        g.grp4 path,
+        g.grp0 circle
+        {
+            stroke:orange;
+            fill:none;
+            stroke-width:3;
+        }
+        g.tick line
+        {
+            stroke: green;
+        }
+        g.tick text
+        {
+            font-size: 12px;
+            fill:blue;
+        }
+       .bar {
+            fill: steelblue;
+        }
+    </style>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    
+</head>
+<body>
+<script src="bar6.js" type="text/javascript"></script>
+</body>
+</html>
